@@ -1,0 +1,29 @@
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.auth-nav__link {
+  display: flex;
+  align-items: center;
+  transition: color var(--duration) var(--timing-function);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.auth-nav__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

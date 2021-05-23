@@ -1,0 +1,19 @@
+%fz-form__textarea {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+%fz-subscription__input {
+  font-style: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+}
+
+%title-font-style {
+  color: var(--subtitle-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.address {
+  font-style: inherit;
+}
+
+.address__text {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  color: var(--premari-white-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address__link {
+  display: block;
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  transition: color var(--duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__link:not(:last-child) {
+  margin-bottom: 9px;
+}

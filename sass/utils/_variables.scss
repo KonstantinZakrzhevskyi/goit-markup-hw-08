@@ -1,0 +1,22 @@
+:root {
+  --primari-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --title-text-color: #000000;
+  --subtitle-text-color: #212121;
+  --accent-color: #2196f3;
+  --premari-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --project-indent: 30px;
+  --border-color: #ececec;
+  --border-card__content: #eeeeee;
+  --color-icons: #afb1b8;
+  --footer-social-icons-bg-color: rgba(255, 255, 255, 0.1);
+  --backdrop-bg: rgba(0, 0, 0, 0.2);
+  --actions-bg: rgba(33, 150, 243, 0.9);
+  --form-border-color: rgba(33, 33, 33, 0.2);
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --duration: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
