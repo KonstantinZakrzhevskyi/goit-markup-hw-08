@@ -306,6 +306,12 @@ textarea {
   padding-top: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .work__section {
+    display: none;
+  }
+}
+
 .work__list {
   display: flex;
 }
