@@ -1,6 +1,9 @@
 .social-icons {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .social-icons__list {
   margin-top: 0;
   margin-bottom: 0;

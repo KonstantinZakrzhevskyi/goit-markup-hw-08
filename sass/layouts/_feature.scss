@@ -23,7 +23,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    margin: 0 -15px;
+    margin: -15px;
   }
 }
 
@@ -37,11 +37,11 @@
 
   @media screen and (min-width: 1200px) {
     width: calc((100% - 4 * 30px) / 4);
-    margin: 0 15px;
+    margin: 15px;
   }
 
   &:not(:last-child) {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767.98px) {
       margin-bottom: 30px;
     }
   }
