@@ -85,8 +85,12 @@ textarea {
   resize: none;
 }
 
-.flexbox {
-  display: flex;
+@media screen and (min-width: 768px) {
+  .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .conteiner {
@@ -523,8 +527,28 @@ textarea {
   padding-bottom: 60px;
 }
 
-.footer__social-icons {
-  margin-left: 70px;
+@media screen and (max-width: 1199.98px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer__contacts {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer__social-icons {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__social-icons {
+    margin-left: 70px;
+  }
 }
 
 .footer__social-title {
@@ -536,8 +560,17 @@ textarea {
   color: var(--premari-white-color);
 }
 
-.subscription {
-  margin-left: auto;
+@media screen and (min-width: 1200px) {
+  .subscription {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .subscription {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .subscription__text {
@@ -547,6 +580,12 @@ textarea {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--premari-white-color);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .subscription__text {
+    margin-top: 60px;
+  }
 }
 
 .subscription__input {
@@ -562,11 +601,29 @@ textarea {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .subscription__input {
+    margin-bottom: 20px;
+  }
+}
+
 .subscription > .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .subscription > .button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription > .button {
+    margin-left: 12px;
+  }
 }
 
 .subscription__icon-svg {
@@ -608,8 +665,15 @@ textarea {
 .logo {
   color: var(--title-text-color);
   font-family: var(--logo-font);
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo__accent {

@@ -1,5 +1,12 @@
 .subscription {
-  margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .subscription__text {
@@ -9,6 +16,10 @@
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--premari-white-color);
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-top: 60px;
+  }
 }
 
 .subscription__input {
@@ -23,13 +34,26 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+  @media screen and (max-width: 1199.98px) {
+    margin-bottom: 20px;
+  }
 }
 
 .subscription > .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 12px;
+  // margin-left: 12px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
+  }
 }
 
 .subscription__icon-svg {
