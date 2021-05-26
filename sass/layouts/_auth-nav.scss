@@ -1,10 +1,30 @@
 .auth-nav {
-  display: flex;
-  margin-left: auto;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
+}
+
+.auth-nav__item {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-left: 84px;
+  }
 }
 
 .auth-nav__item:not(:last-child) {
-  margin-right: 50px;
+  @media screen and (min-width: 768px) and (max-width: 1299.98px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+  }
 }
 
 .auth-nav__link {
@@ -12,10 +32,15 @@
   align-items: center;
   transition: color var(--duration) var(--timing-function);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.17;
+  }
 
   &:hover,
   &:focus {
