@@ -519,6 +519,12 @@ textarea {
 }
 
 @media screen and (max-width: 767px) {
+  .team__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .team__image {
     margin-left: auto;
     margin-right: auto;

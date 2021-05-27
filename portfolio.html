@@ -62,9 +62,11 @@
           <div class="mobile-menu" id="mobile-menu" data-menu>
             <ul class="list mobile-menu__list">
               <li class="mobile-menu__item">
-                <a href="./index.html" class="link mobile-menu__link mobile-menu__link--active">Студия</a>
+                <a href="./index.html" class="link mobile-menu__link">Студия</a>
               </li>
-              <li class="mobile-menu__item"><a href="./portfolio.html" class="link mobile-menu__link">Портфолио</a></li>
+              <li class="mobile-menu__item">
+                <a href="./portfolio.html" class="link mobile-menu__link mobile-menu__link--active">Портфолио</a>
+              </li>
               <li class="mobile-menu__item"><a href="" class="link mobile-menu__link">Контакты</a></li>
             </ul>
             <div class="mobile-menu__wrap">
@@ -119,7 +121,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img1.jpg" alt="Открытый ноутбук" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product1_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product1_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product1_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product1_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product1_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product1_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img1.jpg" alt="Открытый ноутбук" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -140,7 +168,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img2.jpg" alt="Постер НБА" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product2_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product2_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product2_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product2_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product2_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product2_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img2.jpg" alt="Постер НБА" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -161,7 +215,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img3.jpg" alt="Логотип ресторана" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product3_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product3_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product3_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product3_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product3_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product3_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img3.jpg" alt="Логотип ресторана" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -182,7 +262,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img4.jpg" alt="Наушники" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product4_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product4_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product4_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product4_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product2_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product2_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img4.jpg" alt="Наушники" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -203,7 +309,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img5.jpg" alt="Две коробки" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product5_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product5_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product5_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product5_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product5_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product5_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img5.jpg" alt="Две коробки" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -245,7 +377,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img7.jpg" alt="Открытая книга" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product6_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product6_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product6_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product6_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product6_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product6_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img7.jpg" alt="Открытая книга" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -266,7 +424,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img8.jpg" alt="Лейба с надписью" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product8_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product8_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product8_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product8_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product8_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product8_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img8.jpg" alt="Лейба с надписью" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
@@ -287,7 +471,33 @@
                 <a href="" class="card__link">
                   <div class="card__thumb">
                     <div class="card__image">
-                      <img src="./images/portfolio/img9.jpg" alt="Работа за ноутбуком" width="370" height="294" />
+                      <picture>
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/desktop/product9_desktop@1x.jpg,
+                            ./images/portfolio/gallery/desktop/product9_desktop@2x.jpg
+                          "
+                          media="(min-width: 1200px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/tablet/product9_tablet@1x.jpg,
+                            ./images/portfolio/gallery/tablet/product9_tablet@2x.jpg
+                          "
+                          media="(min-width: 768px)"
+                          type="image/jpeg"
+                        />
+                        <source
+                          srcset="
+                            ./images/portfolio/gallery/mobile/product9_mobile@1x.jpg,
+                            ./images/portfolio/gallery/mobile/product9_mobile@2x.jpg
+                          "
+                          media="(max-width: 767.98px)"
+                          type="image/jpeg"
+                        />
+                        <img src="./images/portfolio/img9.jpg" alt="Работа за ноутбуком" />
+                      </picture>
                     </div>
                     <div class="card-action">
                       <p class="card-action__text">
