@@ -50,49 +50,54 @@
               </a>
             </li>
           </ul>
-          <button class="mobile-menu__btn">
-            <svg class="menu-btn__icon" width="40" height="40">
+
+          <button class="menu__btn" type="button" aria-controls="mobile-menu" data-menu-button>
+            <svg class="menu-btn__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
               <use class="menu-btn__icon-close" href="./images/icons.svg#icon-menu-close-btn"></use>
               <use class="menu-btn__icon-menu" href="./images/icons.svg#icon-menu-btn"></use>
             </svg>
           </button>
-        </section>
-      </div>
 
-      <div class="mobile-menu">
-        <!-- <div class="conteiner"> -->
-        <ul class="list mobile-menu__list">
-          <li class="mobile-menu__item">
-            <a href="./index.html" class="link mobile-menu__link mobile-menu__link--active">Студия</a>
-          </li>
-          <li class="mobile-menu__item"><a href="./portfolio.html" class="link mobile-menu__link">Портфолио</a></li>
-          <li class="mobile-menu__item"><a href="" class="link mobile-menu__link">Контакты</a></li>
-        </ul>
-        <div class="mobile-menu__wrap">
-          <ul class="list mobile-menu__contacts">
-            <li class="mobile-menu__item">
-              <a href="mailto:info@devstudio.com" class="link mobile-menu__contact-link"> info@devstudio.com </a>
-            </li>
-            <li class="mobile-menu__item">
-              <a href="tel:+380961111111" class="link mobile-menu__contact-link"> +38 096 111 11 11 </a>
-            </li>
-          </ul>
-          <ul class="social-icons mobile-menu__socials">
-            <li class="list mobile-menu__social-item">
-              <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer">instagram</a>
-            </li>
-            <li class="list mobile-menu__social-item">
-              <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer">twitter</a>
-            </li>
-            <li class="list mobile-menu__social-item">
-              <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer">facebook</a>
-            </li>
-            <li class="list mobile-menu__social-item">
-              <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer">linkedin</a>
-            </li>
-          </ul>
-        </div>
-        <!-- </div> -->
+          <div class="mobile-menu" id="mobile-menu" data-menu>
+            <ul class="list mobile-menu__list">
+              <li class="mobile-menu__item">
+                <a href="./index.html" class="link mobile-menu__link mobile-menu__link--active">Студия</a>
+              </li>
+              <li class="mobile-menu__item"><a href="./portfolio.html" class="link mobile-menu__link">Портфолио</a></li>
+              <li class="mobile-menu__item"><a href="" class="link mobile-menu__link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu__wrap">
+              <ul class="list mobile-menu__contacts">
+                <li class="mobile-menu__item">
+                  <a href="tel:+380961111111" class="link mobile-menu__contact-link"> +38 096 111 11 11 </a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="mailto:info@devstudio.com" class="link mobile-menu__contact-link"> info@devstudio.com </a>
+                </li>
+              </ul>
+              <ul class="mobile-menu__socials">
+                <li class="list mobile-menu__social-item">
+                  <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer"
+                    >instagram</a
+                  >
+                </li>
+                <li class="list mobile-menu__social-item">
+                  <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer">twitter</a>
+                </li>
+                <li class="list mobile-menu__social-item">
+                  <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer"
+                    >facebook</a
+                  >
+                </li>
+                <li class="list mobile-menu__social-item">
+                  <a href="" class="link mobile-menu__social-link" target="_blank" rel="noopener noreferrer"
+                    >linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </header>
     <main>
@@ -494,5 +499,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
