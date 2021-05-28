@@ -56,17 +56,24 @@
   color: var(--primari-text-color);
   transform: color var(--duration) font-size var(--timing-function);
 
-  &:hover,
-  &:focus {
-    font-size: 34px;
-    line-height: 40px;
-    color: var(--accent-color);
-  }
+  // &:hover,
+  // &:focus {
+  //   font-size: 34px;
+  //   line-height: 40px;
+  //   color: var(--accent-color);
+  // }
+}
+
+.mobile-menu__contact-link--accent {
+  font-size: 34px;
+  line-height: 40px;
+  color: var(--accent-color);
 }
 
 .mobile-menu__socials {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .mobile-menu__social-item:not(:last-child) {

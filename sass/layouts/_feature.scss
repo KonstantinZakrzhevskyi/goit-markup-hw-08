@@ -53,6 +53,10 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  @media screen and (max-width: 479.98px) {
+    text-align: center;
+  }
 }
 
 .feature__text {
