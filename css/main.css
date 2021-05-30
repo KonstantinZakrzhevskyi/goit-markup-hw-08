@@ -726,21 +726,15 @@ textarea {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__input {
-    max-width: 450px;
-  }
-}
-
 @media screen and (max-width: 767.98px) {
   .subscription__input {
-    width: 100%;
+    min-width: 100%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .subscription__input {
-    max-width: 358px;
+    min-width: 358px;
   }
 }
 
