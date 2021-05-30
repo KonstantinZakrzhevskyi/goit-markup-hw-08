@@ -121,16 +121,9 @@ textarea {
   border-bottom: 1px solid #ececec;
   padding-top: 16px;
   padding-bottom: 16px;
-  height: 60px;
 }
 
 @media screen and (min-width: 768px) {
-  .page-header {
-    height: 80px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -730,19 +723,13 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .subscription__input {
-    min-width: 450px;
-  }
-}
-
-@media screen and (max-width: 767.98px) {
-  .subscription__input {
-    width: 100%;
+    max-width: 450px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .subscription__input {
-    min-width: 358px;
+    max-width: 358px;
   }
 }
 
@@ -1105,8 +1092,8 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    min-width: 528px;
-    min-height: 581px;
+    max-width: 528px;
+    max-height: 581px;
   }
 }
 
