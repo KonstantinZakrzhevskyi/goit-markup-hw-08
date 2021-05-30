@@ -1,6 +1,6 @@
 .project {
+  margin-left: calc(-1 * var(--project-indent));
   margin-bottom: calc(-1 * var(--project-indent));
-  margin-right: calc(-1 * var(--project-indent));
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .project__item {
-  margin-right: var(--project-indent);
+  margin-left: var(--project-indent);
   margin-bottom: var(--project-indent);
 
   @media screen and (min-width: 768px) {

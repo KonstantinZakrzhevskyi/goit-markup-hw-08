@@ -669,12 +669,6 @@ textarea {
   color: var(--premari-white-color);
 }
 
-@media screen and (min-width: 1200px) {
-  .subscription {
-    margin-left: auto;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .subscription {
     display: flex;
@@ -683,8 +677,24 @@ textarea {
 }
 
 @media screen and (max-width: 1199.98px) {
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscription {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
   .subscription__label {
     width: 100%;
+    text-align: center;
   }
 }
 
@@ -697,16 +707,11 @@ textarea {
   color: var(--premari-white-color);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199.98px) {
-  .subscription__text {
-    margin-top: 60px;
-  }
-}
-
 .subscription__input {
   display: inline-block;
   padding-left: 16px;
   padding-right: 16px;
+  min-width: 450px;
   min-height: 50px;
   color: var(--primary-white-color);
   background-color: inherit;
@@ -724,6 +729,12 @@ textarea {
 @media screen and (min-width: 480px) {
   .subscription__input {
     max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .subscription__input {
+    width: 100%;
   }
 }
 
@@ -793,8 +804,8 @@ textarea {
 }
 
 .project {
+  margin-left: calc(-1 * var(--project-indent));
   margin-bottom: calc(-1 * var(--project-indent));
-  margin-right: calc(-1 * var(--project-indent));
 }
 
 @media screen and (min-width: 768px) {
@@ -805,7 +816,7 @@ textarea {
 }
 
 .project__item {
-  margin-right: var(--project-indent);
+  margin-left: var(--project-indent);
   margin-bottom: var(--project-indent);
 }
 
